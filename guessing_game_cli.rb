@@ -3,7 +3,7 @@
   
 
 def run_guessing_game
-  computer_number=rand(1..6)
+  computer_number=rand(7)
   input=gets.chomp
  
   if input == computer_number
