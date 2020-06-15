@@ -14,5 +14,5 @@ def run_guessing_game
   else
     message = "Sorry! The computer guessed #{computer_number}."
   end
-  message
+  puts message
 end
