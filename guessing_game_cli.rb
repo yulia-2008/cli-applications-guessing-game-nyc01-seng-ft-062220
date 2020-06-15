@@ -1,5 +1,5 @@
 def run_guessing_game
-  puts bla
+  puts "" bla"
   
   
 end
