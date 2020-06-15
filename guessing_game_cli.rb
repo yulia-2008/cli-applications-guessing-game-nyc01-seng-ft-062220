@@ -1,6 +1,6 @@
 
 def random
- rand(1..2)
+ rand(1..6)
  end
   
 
