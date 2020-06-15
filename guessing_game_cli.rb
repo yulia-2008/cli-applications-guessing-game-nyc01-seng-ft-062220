@@ -5,14 +5,15 @@ def random
   
 
 def run_guessing_game
- 
+ message=""
   input=gets.strip
  
   if input == random
-    puts "You guessed the correct number!"
+    message= "You guessed the correct number!"
   elsif input =="exit"
-    puts "Goodbye!"
+    message= "Goodbye!"
   else
-    puts "Sorry! The computer guessed #{random}."
+    message= "Sorry! The computer guessed #{random}."
   end
+  message
 end
