@@ -4,15 +4,15 @@ def random
  end
   
 
-def run_guessing_game(num)
+def run_guessing_game
  
   input=gets.strip
  
-  if input == computer_number
+  if input == random
     puts "You guessed the correct number!"
   elsif input =="exit"
     puts "Goodbye!"
   else
-    puts "Sorry! The computer guessed #{computer_number}."
+    puts "Sorry! The computer guessed #{random}."
   end
 end
