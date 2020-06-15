@@ -9,11 +9,11 @@ def run_guessing_game
   input=gets.strip
  
   if input == random
-    message= "You guessed the correct number!"
+    message = "You guessed the correct number!"
   elsif input =="exit"
-    message= "Goodbye!"
+    message = "Goodbye!"
   else
-    message= "Sorry! The computer guessed #{random}."
+    message = "Sorry! The computer guessed #{random}."
   end
   message
 end
