@@ -1,7 +1,7 @@
 
 
 def prompt
-  puts "Guess number 1 to 6"
+  
 end
 
 
