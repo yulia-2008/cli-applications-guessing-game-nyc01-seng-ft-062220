@@ -6,7 +6,7 @@ def random
 
 def run_guessing_game
  message=""
-  input=gets.chopm
+  input=gets.chomp
  
   if input == random
     message = "You guessed the correct number!"
