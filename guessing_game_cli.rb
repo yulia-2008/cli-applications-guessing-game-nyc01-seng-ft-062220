@@ -14,9 +14,9 @@ end
   
 
 def run_guessing_game
-  rand(1..6)
   
-  computer_number=r
+  
+  computer_number=rrand(1..6)
   
   
   prompt
