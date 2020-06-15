@@ -3,10 +3,10 @@
   
 
 def run_guessing_game
-  computer_number=rand(5)+1
+  computer_number=rand(5)
   input=gets.chomp
  
-  if input == computer_number
+  if input == computer_number+1
     message = "You guessed the correct number!"
   elsif input =="exit"
     message = "Goodbye!"
