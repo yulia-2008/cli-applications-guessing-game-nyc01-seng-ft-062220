@@ -5,7 +5,7 @@ def random
   
 
 def run_guessing_game
- message=""
+ message="ii"
   input=gets.chomp
  
   if input == random
