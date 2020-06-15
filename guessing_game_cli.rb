@@ -8,7 +8,7 @@ def run_guessing_game
   puts "Guess number 1 to 6"
   input=gets.strip
  
-  if input == computer_number
+  if input === computer_number
     puts "You guessed the correct number!"
   elsif input =="exit"
     puts "Goodbye!"
