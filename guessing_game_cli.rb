@@ -1,6 +1,3 @@
-def random
-  
-end
 
 
 def prompt
@@ -14,9 +11,7 @@ end
   
 
 def run_guessing_game
-  
-  
-  computer_number=rrand(1..6)
+  computer_number=rand(1..6)
   
   
   prompt
