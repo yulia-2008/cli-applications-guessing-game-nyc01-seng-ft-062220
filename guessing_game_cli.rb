@@ -6,7 +6,7 @@ end
 
 
 def input
-  gets.strip
+  
 end  
   
 
