@@ -8,7 +8,7 @@ def run_guessing_game
  
   input=gets.strip
  
-  if input == random
+  if random == input
     puts "You guessed the correct number!"
   elsif input =="exit"
     puts "Goodbye!"
