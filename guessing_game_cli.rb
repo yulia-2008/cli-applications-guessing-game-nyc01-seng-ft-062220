@@ -12,9 +12,9 @@ end
 
 def run_guessing_game
   computer_number=rand(1..6)
+  puts "Guess number 1 to 6"
   
-  
-  prompt
+ 
   input
   if input == computer_number
     puts "You guessed the correct number!"
