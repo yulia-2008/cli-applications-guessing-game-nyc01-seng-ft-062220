@@ -1,5 +1,11 @@
+def random
+  
+end
+
+
+
 def run_guessing_game
-  puts " bla"
+  
   
   
 end
