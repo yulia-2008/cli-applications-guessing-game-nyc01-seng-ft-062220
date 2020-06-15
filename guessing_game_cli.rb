@@ -1,6 +1,6 @@
 
 def random
- rand(1..6)
+ rand(1..2)
  end
   
 
@@ -8,7 +8,7 @@ def run_guessing_game
  
   input=gets.strip
  
-  if  == inputrandom
+  if input == random
     puts "You guessed the correct number!"
   elsif input =="exit"
     puts "Goodbye!"
