@@ -4,7 +4,7 @@
   
 
 def run_guessing_game
-  computer_number=rand(1..3)
+  computer_number=rand(1..6)
   puts "Guess number 1 to 6"
   input=gets.strip
  
